@@ -70,4 +70,12 @@
     border-bottom: 0 1px 2px solid #000;
     border-radius: 9px;
   }
+
+  &--login {
+    grid-template-columns: 1fr;
+
+    .btn {
+      width: 50%;
+    }
+  }
 }
