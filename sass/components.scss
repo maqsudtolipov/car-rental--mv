@@ -12,6 +12,12 @@
   align-items: center;
 }
 
+.app-grid {
+  display: grid;
+  grid-template-columns: 25rem 1fr;
+  min-height: 100vh;
+}
+
 //***** TYPOGRAPHY *****//
 .heading-primary,
 .heading-seconary,

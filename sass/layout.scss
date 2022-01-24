@@ -71,6 +71,58 @@
     border-bottom: 0 1px 2px solid #000;
     border-radius: 9px;
   }
+}
 
+//////////////////////////////////
+//**//** PARTNERS SECTION **//**//
+.sidebar {
+  background-color: #f1f5f9;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  padding: 3.2rem 0 3.2rem 2.4rem;
 
+  &__nav {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+
+    &-link {
+      display: flex;
+      align-items: center;
+      gap: 0.8rem;
+      padding: 0.8rem;
+      font-size: 1.6rem;
+      line-height: 1.6;
+
+      ion-icon {
+        padding: 0.8rem;
+        border-radius: 50%;
+        color: #fff !important;
+        background-color: #0ea5e9;
+      }
+
+      &--active {
+        color: #fff;
+        background-color: #0ea5e9;
+        border-bottom-left-radius: 0.9rem;
+        border-top-left-radius: 0.9rem;
+        box-shadow: 2rem 0 1rem rgba(255, 255, 255, 0.603);
+        ion-icon {
+          color: #0ea5e9 !important;
+          background-color: #fff;
+        }
+      }
+
+      ion-icon {
+        color: #0284c7;
+        font-size: 2rem;
+      }
+    }
+  }
+
+  .app-logo {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #0ea5e9;
+    margin-bottom: 6.4rem;
+  }
 }
