@@ -177,12 +177,12 @@ body {
   display: flex;
   align-items: center;
   gap: 0.8rem;
-  padding: 0.8rem;
+  padding: 0.6rem;
   font-size: 1.6rem;
   line-height: 1.6;
 }
 .sidebar__nav-link ion-icon {
-  padding: 0.8rem;
+  padding: 0.4rem;
   border-radius: 0.9rem;
   color: #fff !important;
   background-color: #0ea5e9;
@@ -209,7 +209,7 @@ body {
   padding-left: 1.2rem;
   display: flex;
   flex-direction: column;
-  gap: 1.6rem;
+  gap: 2.4rem;
   font-size: 1.4rem;
   font-weight: 500;
 }
@@ -219,7 +219,7 @@ body {
   gap: 0.8rem;
 }
 .sidebar__profile li ion-icon {
-  font-size: 1.6rem;
+  font-size: 2rem;
 }
 
 /*# sourceMappingURL=style.css.map */
