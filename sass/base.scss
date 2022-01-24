@@ -1,3 +1,9 @@
+$color-dark-1: #03212f;
+
+$color-primary: #0ea5e9;
+$color-primary-2: #0d95d2;
+$color-white: #fff;
+
 /***** BASE RESET *****/
 * {
   margin: 0;
@@ -10,11 +16,9 @@ html {
 }
 
 body {
-  font-family: 'Inter', sans-serif;
-}
-
-/***** BASE RESET *****/
-.container-hero {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  font-family: "Inter", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+  background-color: #f8fafc;
 }
