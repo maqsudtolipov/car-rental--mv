@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "sass": "^1.49.0"
+  },
+  "name": "car-rental--mv",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maqsudtolipov/car-rental--mv.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maqsudtolipov/car-rental--mv/issues"
+  },
+  "homepage": "https://github.com/maqsudtolipov/car-rental--mv#readme",
+  "description": ""
+}
