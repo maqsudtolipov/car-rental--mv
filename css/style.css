@@ -162,9 +162,11 @@ body {
 }
 
 .sidebar {
+  display: flex;
+  flex-direction: column;
   background-color: #f1f5f9;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-  padding: 3.2rem 0 3.2rem 2.4rem;
+  padding: 3.2rem 0 4.8rem 2.4rem;
 }
 .sidebar__nav {
   display: flex;
@@ -181,20 +183,15 @@ body {
 }
 .sidebar__nav-link ion-icon {
   padding: 0.8rem;
-  border-radius: 50%;
+  border-radius: 0.9rem;
   color: #fff !important;
   background-color: #0ea5e9;
 }
 .sidebar__nav-link--active {
-  color: #fff;
-  background-color: #0ea5e9;
+  background-color: #dbeafe;
   border-bottom-left-radius: 0.9rem;
   border-top-left-radius: 0.9rem;
   box-shadow: 2rem 0 1rem rgba(255, 255, 255, 0.603);
-}
-.sidebar__nav-link--active ion-icon {
-  color: #0ea5e9 !important;
-  background-color: #fff;
 }
 .sidebar__nav-link ion-icon {
   color: #0284c7;
@@ -205,6 +202,24 @@ body {
   font-weight: 700;
   color: #0ea5e9;
   margin-bottom: 6.4rem;
+}
+.sidebar__profile {
+  list-style: none;
+  margin-top: auto;
+  padding-left: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+.sidebar__profile li {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+.sidebar__profile li ion-icon {
+  font-size: 1.6rem;
 }
 
 /*# sourceMappingURL=style.css.map */
