@@ -27,6 +27,7 @@
 }
 
 //***** BUTTON *****//
+.btn,
 .btn:link,
 .btn:visited {
   display: inline-block;
@@ -43,23 +44,27 @@
   font-family: inherit;
 }
 
+.btn,
 .btn--full:link,
 .btn--full:visited {
   color: $color-white;
   background-color: $color-primary;
 }
 
+.btn,
 .btn--full:hover,
 .btn--full:active {
   background-color: $color-primary-2;
 }
 
+.btn,
 .btn--outline:link,
 .btn--outline:visited {
   color: $color-dark-1;
   background-color: $color-white;
 }
 
+.btn,
 .btn--outline:hover,
 .btn--outline:active {
   box-shadow: 0 0 0 0.3rem $color-primary;
