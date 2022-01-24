@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 /***** BASE RESET *****/
@@ -18,14 +18,3 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-
-.section-hero {
-  padding: 9.6rem 0;
-}
-
-.hero__img-box {
-  display: grid;
-  justify-content: end;
-}
-
-/*# sourceMappingURL=style.css.map */

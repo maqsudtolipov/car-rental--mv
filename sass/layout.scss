@@ -1,0 +1,11 @@
+//**//** HERO SECTION **//**//
+.section-hero {
+  padding: 9.6rem 0;
+}
+
+.hero {
+  &__img-box {
+    display: grid;
+    justify-content: end;
+  }
+}
