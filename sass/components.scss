@@ -31,6 +31,7 @@
 .btn:visited {
   display: inline-block;
   text-decoration: none;
+  text-align: center;
   font-size: 2rem;
   font-weight: 600;
   padding: 1.6rem 3.2rem;
@@ -68,4 +69,8 @@
 //***** BUTTON *****//
 .margin-right--sm {
   margin-right: 1.6rem;
+}
+
+.margin-top--sm {
+  margin-top: 1.6rem;
 }

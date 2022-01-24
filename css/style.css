@@ -47,6 +47,7 @@ body {
 .btn:visited {
   display: inline-block;
   text-decoration: none;
+  text-align: center;
   font-size: 2rem;
   font-weight: 600;
   padding: 1.6rem 3.2rem;
@@ -81,6 +82,10 @@ body {
 
 .margin-right--sm {
   margin-right: 1.6rem;
+}
+
+.margin-top--sm {
+  margin-top: 1.6rem;
 }
 
 .section-hero {
@@ -120,6 +125,28 @@ body {
   display: flex;
   gap: 4.8rem;
   justify-content: center;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3.6rem;
+  row-gap: 2.4rem;
+}
+.form label {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+}
+.form input {
+  padding: 1.2rem;
+  font-size: 1.8rem;
+  font-family: inherit;
+  color: inherit;
+  border: none;
+  border-bottom: 0 1px 2px solid #000;
+  border-radius: 9px;
 }
 
 /*# sourceMappingURL=style.css.map */
